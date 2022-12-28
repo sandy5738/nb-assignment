@@ -225,6 +225,8 @@ aside {
   background-color: #ffffff;
   border-radius: var(--border-radius);
   position: sticky;
+  top: 25px;
+  align-self: flex-start;
 }
 
 form {
