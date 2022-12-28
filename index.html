@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoBroker Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h1>Thank you for submitting the form!</h1>
+      </div>
+    </div>
+    <header class="header">
+      <div class="logo">
+        <img
+          src="https://www.nobroker.in/prophub/wp-content/uploads/2022/05/nb_logo_new_trans.svg"
+          alt="NoBroker Logo"
+        />
+        <p>Property Management Services</p>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="banner"></div>
+        <div class="t-and-c">
+          <h2>Terms & Conditions</h2>
+          <div class="tac-list">
+            <div>
+              <img
+                src="https://www.nobroker.in/prophub/wp-content/uploads/2020/04/iStock-692279620.jpg"
+                width="18px"
+              />
+            </div>
+            <p>
+              Get <strong>2000 Cash</strong> in your account on successful
+              onboarding of property by NoBroker
+            </p>
+          </div>
+          <div class="tac-list">
+            <div>
+              <img
+                src="https://www.nobroker.in/prophub/wp-content/uploads/2020/04/iStock-692279620.jpg"
+                width="18px"
+              />
+            </div>
+            <p>
+              For every successful referral, get
+              <strong>Rs 2000 discount</strong> on Property Management Services
+              Plan
+            </p>
+          </div>
+        </div>
+        <div class="tandc-footer">&copy; NoBroker.com</div>
+      </div>
+      <aside>
+        <form action="">
+          <h2>Refer now to earn attractive rewards!!🎉</h2>
+          <label for="name"> </label>
+          <input type="text" id="name" placeholder="Your Name" />
+          <label for="phone"> </label>
+          <input type="number" id="phone" placeholder="Your Mobile Number" />
+          <label for="f-name"> </label>
+          <input type="text" id="f-name" placeholder="Your Friend's Name" />
+          <label for="f-phone"> </label>
+          <input
+            type="text"
+            id="f-phone"
+            placeholder="Your Friend's Mobile Number"
+          />
+          <label for="f-city"> </label>
+          <select
+            name="f-city"
+            id="f-city-select"
+            placeholder="Your Friend's City"
+          >
+            <option value="" disabled selected hidden>
+              Your Friend's City
+            </option>
+            <option value="bangalore">Bangalore</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="pune">Pune</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="chennai">Chennai</option>
+          </select>
+          <button class="trigger">Submit</button>
+        </form>
+      </aside>
+    </main>
+  </body>
+</html>
